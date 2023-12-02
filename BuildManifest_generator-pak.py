@@ -4,6 +4,7 @@ import re
 file_basepath = "D:/Unreal Projects/PatcherDemo/"
 Pakfolder = "Windows/PatcherDemo/Content/Paks"
 file_name = "BuildManifest.txt"
+BuildID = "Patcher-Live"
 
 def Foo(inFilePath, inFileName):
     if not os.path.exists(inFilePath):
@@ -31,7 +32,7 @@ def Foo(inFilePath, inFileName):
             count += 1
 
     f.write(f"$NUM_ENTRIES = " + str(count) + "\n")
-    f.write(f"$BUILD_ID = Patcher-Live\n")
+    f.write(f"$BUILD_ID = " + BuildID + "\n")
 
     if len(linelist) > 0:
         linelist.pop(0)
