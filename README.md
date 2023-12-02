@@ -20,6 +20,6 @@ This script only works with .pak generated files. <br>
 It doesn't support the Io Store configuration (.utoc/.ucas container files).
 
 ##
-Please, don't forget to give create when using it or modifying it. 
+Please, don't forget to give credit when using or modifying it this script.
 ##
 Created by David Ricardo
