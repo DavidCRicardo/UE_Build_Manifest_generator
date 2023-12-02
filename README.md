@@ -15,6 +15,10 @@ This script will automatically read the .pak files that Unreal has generated. Af
 or
 - You can also run it inside Unreal Editor in "Tools -> Execute Python Script..."
 
+## Limitations
+This script only works with .pak generated files. <br> 
+It doesn't support the Io Store configuration (.utoc/.ucas container files).
+
 ##
 Please, don't forget to give create when using it or modifying it. 
 ##
