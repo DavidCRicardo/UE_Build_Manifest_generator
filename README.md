@@ -15,6 +15,7 @@ This script will automatically read the .pak files that Unreal has generated. Af
 or
 - You can also run it inside Unreal Editor in "Tools -> Execute Python Script..."
 
-
-Please, don't forget to give create when using it or modifying it.
+##
+Please, don't forget to give create when using it or modifying it. 
+##
 Created by David Ricardo
